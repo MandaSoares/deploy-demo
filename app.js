@@ -5,6 +5,7 @@ function App() {
                 <Navbar />
                 <main>
                     <Hero />
+                    <AboutUs />
                     <Features />
                     <Pricing />
                     <Testimonials />

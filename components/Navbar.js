@@ -10,6 +10,7 @@ function Navbar() {
                             <a href="#" data-name="logo" className="text-xl font-bold text-gradient">SaaSify</a>
                         </div>
                         <div className="hidden md:flex items-center space-x-8">
+                            <a href="#about" data-name="about-link" className="text-gray-600 hover:text-gray-900">Sobre Nós</a>
                             <a href="#features" data-name="features-link" className="text-gray-600 hover:text-gray-900">Recursos</a>
                             <a href="#pricing" data-name="pricing-link" className="text-gray-600 hover:text-gray-900">Preços</a>
                             <a href="#testimonials" data-name="testimonials-link" className="text-gray-600 hover:text-gray-900">Depoimentos</a>
@@ -29,6 +30,7 @@ function Navbar() {
                 {isOpen && (
                     <div data-name="mobile-menu" className="md:hidden">
                         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                            <a href="#about" className="block px-3 py-2 text-gray-600">Sobre Nós</a>
                             <a href="#features" className="block px-3 py-2 text-gray-600">Recursos</a>
                             <a href="#pricing" className="block px-3 py-2 text-gray-600">Preços</a>
                             <a href="#testimonials" className="block px-3 py-2 text-gray-600">Depoimentos</a>
